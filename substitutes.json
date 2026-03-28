@@ -1,0 +1,266 @@
+{
+  "version": "1.0",
+  "source": "Holia (https://holia.com)",
+  "license": "CC BY 4.0",
+  "ingredients": [
+    {
+      "name": "Shaoxing Wine",
+      "chinese": "绍兴酒/料酒",
+      "category": "alcohol",
+      "substitutes": [
+        {
+          "name": "Dry Sherry",
+          "match": "closest",
+          "ratio": "1:1",
+          "notes": "Closest in flavor profile. Use fino or manzanilla sherry.",
+          "compensation": null
+        },
+        {
+          "name": "Dry Vermouth",
+          "match": "similar",
+          "ratio": "1:1",
+          "notes": "Herbal notes differ but works well in stir-fries.",
+          "compensation": null
+        },
+        {
+          "name": "Mirin + Rice Vinegar",
+          "match": "different",
+          "ratio": "1:1 (half mirin, half rice vinegar)",
+          "notes": "Sweeter profile. Reduce other sugars in recipe.",
+          "compensation": "Reduce sugar by 1 tsp per tbsp of substitute"
+        }
+      ]
+    },
+    {
+      "name": "Doubanjiang",
+      "chinese": "豆瓣酱",
+      "category": "paste",
+      "substitutes": [
+        {
+          "name": "Gochujang",
+          "match": "similar",
+          "ratio": "1:1",
+          "notes": "Korean chili paste. Sweeter and less fermented.",
+          "compensation": "Reduce salt by 25%, add a splash of soy sauce"
+        },
+        {
+          "name": "Sambal Oelek + Miso",
+          "match": "different",
+          "ratio": "2:1 (sambal to miso)",
+          "notes": "Approximates the chili-fermented bean flavor.",
+          "compensation": null
+        }
+      ]
+    },
+    {
+      "name": "Sichuan Peppercorn",
+      "chinese": "花椒",
+      "category": "spice",
+      "substitutes": [
+        {
+          "name": "Sichuan Peppercorn Oil",
+          "match": "closest",
+          "ratio": "1 tsp oil per 1/2 tsp whole peppercorn",
+          "notes": "Add at end of cooking for best numbing effect.",
+          "compensation": null
+        },
+        {
+          "name": "Black Pepper + Lemon Zest",
+          "match": "different",
+          "ratio": "1:1 pepper, pinch of zest",
+          "notes": "Won't replicate the numbing sensation but adds complexity.",
+          "compensation": null
+        }
+      ]
+    },
+    {
+      "name": "Oyster Sauce",
+      "chinese": "蚅油",
+      "category": "sauce",
+      "substitutes": [
+        {
+          "name": "Mushroom Oyster Sauce",
+          "match": "closest",
+          "ratio": "1:1",
+          "notes": "Vegetarian version. Nearly identical in use.",
+          "compensation": null
+        },
+        {
+          "name": "Soy Sauce + Sugar",
+          "match": "different",
+          "ratio": "1 tbsp soy + 1/2 tsp sugar per 1 tbsp oyster sauce",
+          "notes": "Misses the depth but provides similar saltiness and sweetness.",
+          "compensation": null
+        }
+      ]
+    },
+    {
+      "name": "Dark Soy Sauce",
+      "chinese": "老抽",
+      "category": "sauce",
+      "substitutes": [
+        {
+          "name": "Regular Soy Sauce + Molasses",
+          "match": "closest",
+          "ratio": "1 tbsp soy + 1/2 tsp molasses",
+          "notes": "Replicates the color and slight sweetness.",
+          "compensation": null
+        },
+        {
+          "name": "Double Black Soy Sauce",
+          "match": "closest",
+          "ratio": "1:1",
+          "notes": "Even darker and thicker. Use slightly less.",
+          "compensation": "Use 3/4 amount"
+        }
+      ]
+    },
+    {
+      "name": "Light Soy Sauce",
+      "chinese": "生抽",
+      "category": "sauce",
+      "substitutes": [
+        {
+          "name": "Japanese Soy Sauce (Koikuchi)",
+          "match": "closest",
+          "ratio": "1:1",
+          "notes": "Slightly different fermentation but very close.",
+          "compensation": null
+        },
+        {
+          "name": "Tamari",
+          "match": "similar",
+          "ratio": "1:1",
+          "notes": "Gluten-free option. Slightly richer and less salty.",
+          "compensation": null
+        }
+      ]
+    },
+    {
+      "name": "Chinese Black Vinegar",
+      "chinese": "陈醋",
+      "category": "vinegar",
+      "substitutes": [
+        {
+          "name": "Balsamic Vinegar",
+          "match": "similar",
+          "ratio": "3/4 amount",
+          "notes": "Sweeter and fruitier, but closest Western substitute.",
+          "compensation": "Use 3/4 the amount called for"
+        },
+        {
+          "name": "Rice Vinegar + Worcestershire",
+          "match": "different",
+          "ratio": "1 tbsp rice vinegar + 1/2 tsp Worcestershire",
+          "notes": "Adds complexity that plain rice vinegar lacks.",
+          "compensation": null
+        }
+      ]
+    },
+    {
+      "name": "Douchi",
+      "chinese": "豆豉",
+      "category": "fermented",
+      "substitutes": [
+        {
+          "name": "Black Bean Garlic Sauce",
+          "match": "closest",
+          "ratio": "1.5:1",
+          "notes": "Pre-made sauce containing douchi. Use slightly more.",
+          "compensation": "Reduce garlic in recipe"
+        },
+        {
+          "name": "Miso Paste",
+          "match": "different",
+          "ratio": "1:1",
+          "notes": "Different bean base but provides fermented umami.",
+          "compensation": null
+        }
+      ]
+    },
+    {
+      "name": "Dried Chili Peppers",
+      "chinese": "干辣椒",
+      "category": "spice",
+      "substitutes": [
+        {
+          "name": "Chile de Arbol",
+          "match": "closest",
+          "ratio": "1:1",
+          "notes": "Similar heat level and thin-walled texture.",
+          "compensation": null
+        },
+        {
+          "name": "Red Pepper Flakes",
+          "match": "similar",
+          "ratio": "1/2 tsp flakes per 1 dried chili",
+          "notes": "Less visual impact but provides the heat.",
+          "compensation": null
+        }
+      ]
+    },
+    {
+      "name": "Chinese Five-Spice",
+      "chinese": "五香粉",
+      "category": "spice",
+      "substitutes": [
+        {
+          "name": "DIY Blend",
+          "match": "closest",
+          "ratio": "Equal parts star anise, cloves, cinnamon, Sichuan peppercorn, fennel seeds",
+          "notes": "Grind fresh for best results.",
+          "compensation": null
+        },
+        {
+          "name": "Allspice + Cinnamon",
+          "match": "different",
+          "ratio": "3/4 tsp allspice + 1/4 tsp cinnamon per 1 tsp five-spice",
+          "notes": "Missing key notes but works in a pinch.",
+          "compensation": null
+        }
+      ]
+    },
+    {
+      "name": "Cornstarch",
+      "chinese": "玉米淀粉",
+      "category": "starch",
+      "substitutes": [
+        {
+          "name": "Potato Starch",
+          "match": "closest",
+          "ratio": "1:1",
+          "notes": "Best substitute for velveting and thickening.",
+          "compensation": null
+        },
+        {
+          "name": "Tapioca Starch",
+          "match": "similar",
+          "ratio": "1:1",
+          "notes": "Creates a slightly chewier texture. Good for coating.",
+          "compensation": null
+        }
+      ]
+    },
+    {
+      "name": "Pixian Douban",
+      "chinese": "郫县豆瓣",
+      "category": "paste",
+      "substitutes": [
+        {
+          "name": "Regular Doubanjiang",
+          "match": "closest",
+          "ratio": "1:1",
+          "notes": "Less complex but functionally equivalent.",
+          "compensation": null
+        },
+        {
+          "name": "Gochujang + Miso",
+          "match": "different",
+          "ratio": "2:1 (gochujang to miso)",
+          "notes": "Approximates the fermented chili bean flavor.",
+          "compensation": "Add a splash of soy sauce"
+        }
+      ]
+    }
+  ]
+}
